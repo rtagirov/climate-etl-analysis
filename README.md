@@ -1,7 +1,7 @@
 ETL и анализ климатических данных 
 (NetCDF — SQLite — Time Series)
 
-Описание проекта
+## Описание проекта
 
 В проекте реализован полный пайплайн обработки климатических данных в формате NetCDF:
 загрузка многомерных данных (xarray)
@@ -14,16 +14,16 @@ SQL-агрегации
 Проект демонстрирует навыки Data Analyst: 
 ETL, SQL, Python, работа с временными рядами.
 
-Используемые технологии
+## Используемые технологии
 
-Python
-pandas
-xarray
-NetCDF4
-SQLite
-matplotlib
+- Python
+- pandas
+- xarray
+- NetCDF4
+- SQLite
+- matplotlib
 
-Этапы пайплайна
+## Этапы пайплайна
 
 1. Загрузка NetCDF
 чтение многомерного датасета
@@ -52,7 +52,7 @@ rolling mean (скользящее среднее)
 временной тренд
 сглаживание тренда
 
-Как запустить
+## Как запустить
 
-pip install -r requirements.txt
-jupyter-notebook da_portfolio_pipeline.py
+- pip install -r requirements.txt
+- jupyter-notebook da_portfolio_pipeline.py
